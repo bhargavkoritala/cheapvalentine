@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+	<style>
+			html,body{
+		  width:100%;
+		  height:100%;
+		  marging:0;
+		}
+		body {
+		margin: 0;
+		  background: url(assets/img/bg.jpg) no-repeat center center fixed; 
+		  width : 100%;
+		  -webkit-background-size: cover;
+		  -moz-background-size: cover;
+		  -o-background-size: cover;
+		  background-size: cover;
+		}
+		#container {
+		  position: relative;
+		  min-height: 100vh;
+		}
+
+		#content-wrap {
+		  padding-bottom: 2.5rem;    /* Footer height */
+		}
+
+		#footer {
+		  display: block;
+		  position: realtive;
+		  bottom: 0;
+		  left: 0;
+		  right: 0;
+		  height: 2.5rem;
+		  width: 100%;
+		}
+		
+		.gallery-wrap {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 75vh;
+}
+
+.container{
+  padding: 75px 0;
+  margin: 0 auto;
+  width: 1140px;
+}
+
+.item {
+  flex: 1;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: none;
+  transition: flex 0.8s ease;
+}
+
+.item:hover{
+    flex: 7;
+ }
+
+.item-1 { 
+  background-image: linear-gradient(0deg, rgba(3, 100, 6, 0.52), rgba(246, 189, 192, 0.73)),url('assets/img/r1.jpg');
+
+}
+
+.item-2 { 
+  background-image: linear-gradient(0deg, rgba(220, 28, 19, 0.52), rgba(246, 189, 192, 0.73)),url('assets/img/r2.jpg');
+
+}
+
+.item-3 { 
+  background-image: linear-gradient(0deg, rgba(220, 28, 19, 0.52), rgba(246, 189, 192, 0.73)),url('assets/img/r3.jpg');
+  }
+  
+  .hide1, .hide2, .hide3{
+  height: 100%; overflow: hidden;
+}
+	</style>
+    <title>Hello, world!</title>
+  </head>
+  <body>
+	<div class="container">
+		<h1 class="display-6 text-center text-white">Cheapvalentine.space</h1>
+		<div class="row" id="content-wrap">
+		<div class="gallery-wrap">
+			<div class="item item-1 p-2">
+				<div class="hide1">
+					<strong>Drive to Niagara Fallas and dine in the romantic backdrop of Niagara falls at Zaika restarurant</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+				</div>
+			</div>
+			<div class="item item-2 p-2">
+				<div class="hide2">
+					<strong>Drive to Niagara Fallas and dine in the romantic backdrop of Niagara falls at Zaika restarurant</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+				</div>
+			</div>
+			<div class="item item-3 p-2">
+				<div class="hide3">
+					<strong>Drive to Niagara Fallas and dine in the romantic backdrop of Niagara falls at Zaika restarurant</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+				</div>
+			</div>
+		  </div>
+		</div>
+		<div class="text-center p-3">
+			<button onclick="location.href = 'index.html';" style="background: linear-gradient(0deg, rgba(220, 28, 19, 0.52), rgba(246, 189, 192, 0.73)),url(assets/img/button.jpg);color:black" type="button" class="btn btn-outline-danger btn-lg btn-block">Try a different idea!</button>
+		</div>
+		<footer id="footer" class="">
+			<h3 class="text-center"> <strong class="text-white">Save <span class="text-success"><i class="fas fa-dollar-sign"></i></span> in the name of <span class="text-danger"><i class="far fa-heart"></i></span></strong> </h3>
+		</footer>
+	</div>
+    
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+	<script src="https://kit.fontawesome.com/03df1f7cd3.js" crossorigin="anonymous"></script>
+  </body>
+</html>
